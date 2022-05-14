@@ -36,7 +36,7 @@ const renderCountry = function (data) {
   country.innerHTML=`  
     <div class="">
         <div class="country-img">
-            <img src="${data.flags.png}" alt="">
+            <img src="${data.flags.png}" alt="country-img">
         </div>
         <div class="country-info">
             <h2 class="country-name">${data.name}</h2>
@@ -116,7 +116,7 @@ const showCountryDeatils = function (data) {
   //prettier-ignore
   modal.innerHTML=`
   <div class="left-modal">
-    <img src="${data.flags.png}" alt="">
+    <img src="${data.flags.png}"alt="country-img">
   </div>
   <div class="right-modal">
     <h1>${data.name}</h1>
